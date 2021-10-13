@@ -1,0 +1,289 @@
+* {
+    box-sizing: border-box;
+}
+html, body { 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.container { 
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+header {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+header nav a { 
+    text-decoration: none;
+    color: inherit;
+    margin-right: 40px;
+}
+.section-1 {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro { 
+    width: 80%;
+}
+.section-1 .intro h2 {
+    font-size: 5em;
+}
+.section-1 .intro span {
+    font-size: 2em;
+}
+.section-1 .intro p { 
+    width: 50%;
+}
+.contact {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.contact::after {
+    content: "";
+    height: 400px;
+    display: block;
+    border-left: 2px solid black;
+}
+.section-title {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-title > div {
+    position: relative;
+}
+.section-title .background-text {
+    font-size: 10em;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    font-weight: bold;
+    color: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 6px;
+    opacity: 0.1;
+}
+.section-title .inside-text {
+    position: absolute;
+    top: 67px;
+    right: 205px;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url(./poze/cv-pic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.about-me .profile {
+     display: flex;
+     width: 90%;
+}
+.about-me .profile > div {
+    display: flex;
+    justify-content: center;
+}
+.about-me .profile > div:first-child {
+    width: 35%;
+}
+.about-me .profile > div:last-child {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.profile .small-info-about-me {
+    display: flex;
+    margin-top: 30px;
+}
+.profile .small-info-about-me > div {
+    width: 50%;
+}
+.profile .small-info-about-me span {
+    display: block;
+    margin-bottom: 1em;
+}
+/* .skills {
+    margin-top: 400px;
+} */
+.skills .inside-text{
+    right: 267px;
+}
+.skills > div:last-child {
+    margin-top: 40px;
+    display: flex;
+}
+.skills-category span {
+    display: block;
+    margin-bottom: 13.5px;
+    margin-right: 20px;
+    padding-top: 2px;
+    font-weight: bold;
+ }
+.percentage > div {
+    height: 16px;
+    width: 300px;
+    background-color: rgb(224, 221, 221);
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+.percentage-line {
+    height: 100%;
+    border-radius: 10px;
+}
+.HTML5 {
+    width: 90%;
+    background-color: rgb(0, 68, 255);
+}
+.CSS3 {
+    width: 80%;
+    background-color: rgb(255, 187, 0);
+}
+.JS {
+    width: 50%;
+    background-color: rgb(236, 41, 6);
+}
+.Jquery {
+    width: 50%;
+    background-color: rgb(165, 4, 4);
+}
+.Github {
+    width: 30%;
+    background-color: rgb(172, 2, 172);
+}
+.Bootstrap {
+    width: 30%;
+    background-color: rgb(0, 112, 15);
+}
+.quality {
+    margin-top: 100px;
+}
+.quality .inside-text {
+    right: 98px;
+}
+.quality > div:last-child { 
+    width: 90%;
+    display: flex;
+    margin-top: 50px;
+}
+.quality > div:last-child > div {
+    width: 50%;
+}
+.quality > div:last-child > div {
+    width: 50%;
+}
+.education > div span {
+    display: block;
+    margin-bottom: 10px;
+}
+.education p {
+    width: 90%;
+}
+.experience > div span {
+    display: block;
+    margin-bottom: 10px;
+}
+.bold-font {
+    font-weight: bold;
+}
+.quality .border-bot { 
+    margin-bottom: 1.5em;
+}
+.quality .border-bot::after { 
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid black;
+}
+.portfolio .inside-text {
+    right: 380px;
+}
+.portfolio .background-text {
+    letter-spacing: 10px;
+}
+
+.projects-wrapper {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.projects-wrapper > div{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 2px 2px 7px rgb(94, 94, 94);
+}
+.projects-wrapper > div img{
+    width: 100%;
+    height: 100%;
+}
+
+footer { 
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding-bottom: 20px;
+}
+.footer-title { 
+    font-size: 2em;
+}
+footer .bottom-contacts-wrapper { 
+    margin-top: 20px;
+}
+footer > div {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+footer > div > div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 30%;
+}
+footer .icon-wrapper {
+    width: 50px;
+    height: 50px;
+}
+footer i {
+    font-size: 40px;
+}
+
+
