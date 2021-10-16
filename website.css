@@ -296,6 +296,13 @@ footer i {
     .section-1 .intro h2 {
         font-size: 3em;
     }
+    header nav {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
     .profile-img {
         width: 150px;
         height: 160px;
@@ -345,5 +352,6 @@ footer i {
     footer .location, .email, .linked {
         margin-right: 15px;
     }
+
 }
 
