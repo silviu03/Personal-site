@@ -308,6 +308,13 @@ footer i {
         height: 160px;
         margin-top: 10px;
     }
+    .about-me .profile {
+        justify-content: space-between;
+    }
+    .about-me .profile > div:last-child {
+        width: 60%;
+    }
+    
     .section-title .background-text {
         font-size: 6em;
         text-transform: uppercase;
