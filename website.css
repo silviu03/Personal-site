@@ -318,7 +318,7 @@ footer i {
     .section-title .background-text {
         font-size: 6em;
         text-transform: uppercase;
-        letter-spacing: 15px;
+        letter-spacing: 10px;
         font-weight: bold;
         color: black;
         -webkit-text-fill-color: transparent;
@@ -338,7 +338,7 @@ footer i {
         right: 133px;
     }
     .quality .inside-text {
-        right: 43px;
+        right: 30px;
     }
     .portfolio .background-text {
         letter-spacing: 5px;
